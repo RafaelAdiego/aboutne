@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .item1 {
+    background-color: green;
+   
+  }
+  .item2 {
+    background-color: yellow;
+    
+    
+    
+  }
+  .item3{
+    background-color: pink; 
+    flex: 1;
+  }
+  .item4{
+    background-color: blue;
+    
+  }
+  
