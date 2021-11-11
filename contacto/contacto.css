@@ -1,0 +1,110 @@
+
+body {
+    margin: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    background-color:grey;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+  
+    
+}
+main{
+    display: block;
+}
+.page--content--section{
+  display: inline-block;  
+}
+.link--mailcontact{
+ display: block;
+    color: green;
+}
+.social--media--icon{
+   color: red;
+
+}
+.contenedor--form{
+    align-self: center;
+}
+.contact--form{
+    margin: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    align-self:auto;
+    background-color: rgba(196, 218, 163, 0.534);
+    padding: 10px;
+    text-align: center;
+    max-width: 320px;
+}
+.contact--form--elements{
+    
+margin-left: 20px;
+    margin-bottom: 20px;
+   margin-top: 20px;
+   margin-right: 20px;
+}
+input{
+    border-style: groove;
+    box-sizing: border-box;
+    width: 100%;
+    height: 20px;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 2px;
+    border-color: black;
+}
+.form--message{
+    width: 100%;
+    height: 60px;
+  border-style: groove;
+  border-width: 2px;
+  border-color: black;
+  box-sizing: border-box;
+}
+label{
+position: absolute;
+top: -10000em;
+width: 1px;
+height: 1px;
+margin: -1px;
+padding: 0px;
+overflow: hidden;
+clip: rect(0,0,0,0);
+border: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+@media all and (min-width: 600px) {
+    body{
+        text-align: center;
+        align-content: center;
+    }
+.all{
+    text-align: center;
+    align-content: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+main{
+    display: block;
+}
+
+.contenedor--form{
+    align-self: center;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+}
