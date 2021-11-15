@@ -1,14 +1,12 @@
 
 body {
     margin: 10px;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
-    font-size: 1rem;
+    font-family: 'Tourney', cursive, sans-serif;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     color: #333;
     background-color:grey;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     text-align: center;
   
     
@@ -84,20 +82,48 @@ border: 0;
 *, *::before, *::after {
     box-sizing: border-box;
 }
+h2 {
+    display: block;
+    font-size: 16px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
 @media all and (min-width: 600px) {
-    body{
-        text-align: center;
-        align-content: center;
-    }
+   
 .all{
-    text-align: center;
+    text-align: left;
     align-content: center;
     display: flex;
     width: 100%;
     height: 100%;
+    justify-content: center;
 }
 main{
-    display: block;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    align-self:center;
+    max-width: 612px;
+    min-width: 50%;
+}
+.page--content--body{
+    
+    display: flex;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    align-self:center;
+    max-width: 612px;
+    min-width: 50%;
 }
 
 .contenedor--form{
@@ -106,5 +132,16 @@ main{
     width: 100%;
     
 }
+.contact--form{
+    padding: 20px;
+    margin: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    align-self:auto;
+    background-color: rgba(196, 218, 163, 0.534);
+    text-align: center;
+    max-width: 612px;}
 
 }
