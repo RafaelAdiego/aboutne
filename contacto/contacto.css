@@ -1,7 +1,7 @@
 
 body {
-    margin: 10px;
-    font-family: 'Tourney', cursive, sans-serif;
+    margin: 0px;
+    font-family: "Baloo Bhai 2", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -11,44 +11,67 @@ body {
   
     
 }
+.first--title{
+    font-family: "Baloo Bhai 2",Sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: -.1px;
+}
 main{
     display: block;
 }
 .page--content--section{
-  display: inline-block;  
+  display: inline-block; 
+  font-size: 20px; 
+  font-weight: 400;
+  line-height: 32px;
 }
 .link--mailcontact{
+    
  display: block;
     color: green;
+}
+.social--media{
+    font-size: 1.25rem;
 }
 .social--media--icon{
    color: red;
 
 }
+.title--form{
+    text-align: left;
+    font-family: "Baloo Bhai 2",sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: -0.2px;
+    margin-bottom: 20px;
+}
 .contenedor--form{
     align-self: center;
 }
 .contact--form{
+    font-family: "Baloo Bhai 2",sans-serif;
     margin: 0;
     margin-bottom: 0;
     margin-top: 0;
     margin-right: auto;
     margin-left: auto;
     align-self:auto;
-    background-color: rgba(196, 218, 163, 0.534);
+    background-color: #afe4c05d;
     padding: 10px;
     text-align: center;
     max-width: 320px;
 }
 .contact--form--elements{
-    
 margin-left: 20px;
     margin-bottom: 20px;
-   margin-top: 20px;
+   margin-top: 10px;
    margin-right: 20px;
 }
 input{
-    border-style: groove;
+    border-style: solid;
     box-sizing: border-box;
     width: 100%;
     height: 20px;
@@ -58,15 +81,38 @@ input{
     margin-left: auto;
     margin-right: auto;
     border-width: 2px;
-    border-color: black;
+    border-color: #ADADAD;
+    background-color: white;
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 4px;
+    
+
+}
+.formulario{
+    margin-left: calc(-10px/2);
+    margin-right: calc(-10px/2);
+    margin-bottom: -16px;
+
+}
+#inputsubmit{
+    background-color: chartreuse;
+    height: 40px;
+    font-family: "Baloo Bhai 2", sans-serif;
 }
 .form--message{
+    border-radius: 4px;
+    color: #33475B;
     width: 100%;
     height: 60px;
-  border-style: groove;
+  border-style: solid;
   border-width: 2px;
-  border-color: black;
+  border-color: #ADADAD;
   box-sizing: border-box;
+  font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 label{
 position: absolute;
@@ -143,7 +189,6 @@ main{
     margin-right: auto;
     margin-left: auto;
     align-self:auto;
-    background-color: rgba(196, 218, 163, 0.534);
     text-align: center;
     max-width: 612px;}
 
