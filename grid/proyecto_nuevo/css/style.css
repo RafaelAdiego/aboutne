@@ -1,0 +1,12 @@
+p {
+  text-align: center;
+}
+
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.grid__cell--100 {
+  color: red;
+}
