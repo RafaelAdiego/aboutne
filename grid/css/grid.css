@@ -1,28 +1,25 @@
+p{ 
+ text-align: center;  
+}
 .grid{
  display: flex;
- width: 100%;
-    
+ width: 100%;  
 }
-    p{ 
-     text-align: center;
-   
+    .grid__cell-100{
+     flex: 0 0 calc(100% - 16px); 
+     background-color: red;
+     border: 8px solid greenyellow;
     }
-
-        .grid__cell-100{
-         flex: 0 0 calc(100% - 16px); 
-         background-color: red;
-         border: 8px solid greenyellow;
-        }
-        .grid__cell-50{
-         flex: 0 0 calc(50% - 16px);
-         background-color: blue;
-          border: 8px solid greenyellow;
-        }
-        .grid__cell-25{
-         flex: 0 0 calc(25% - 16px);
-         background-color: blueviolet;
-         border: 8px solid greenyellow;
-        }
+    .grid__cell-50{
+     flex: 0 0 calc(50% - 16px);
+     background-color: blue;
+      border: 8px solid greenyellow;
+    }
+    .grid__cell-25{
+     flex: 0 0 calc(25% - 16px);
+     background-color: blueviolet;
+     border: 8px solid greenyellow;
+    }
 @media all and (max-width: 600px){
     .grid__cell-100{
      flex: 0 0 calc(100% - 16px);
