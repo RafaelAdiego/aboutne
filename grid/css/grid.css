@@ -42,20 +42,20 @@
     }
 }
 @media all and (max-width: 300px){ 
-                        .grid__cell-100{
-                         flex: 0 0 calc(100% - 16px);
-                         flex-wrap: wrap;
-                        }
-                        .grid__cell-50{
-                         flex: 0 0 calc(100% - 16px);
-                         flex-wrap: wrap;
-                        }
-                        .grid__cell-25{
-                         flex: 0 0 calc(100% - 16px);
-                         flex-wrap: wrap;
-                        }
-                        .grid{
-                         display: flex;
-                         flex-wrap: wrap;
-                        }
+    .grid__cell-100{
+     flex: 0 0 calc(100% - 16px);
+     flex-wrap: wrap;
+    }
+    .grid__cell-50{
+     flex: 0 0 calc(100% - 16px);
+     flex-wrap: wrap;
+    }
+    .grid__cell-25{
+     flex: 0 0 calc(100% - 16px);
+     flex-wrap: wrap;
+    }
+    .grid{
+     display: flex;
+     flex-wrap: wrap;
+    }
 }
