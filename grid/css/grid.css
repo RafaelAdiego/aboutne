@@ -7,11 +7,9 @@ p{
     text-align: center;
    
 }
- *{
-    box-sizing: border-box;} 
 
 .grid__cell-100{
-    flex: 0 0 calc(100%-16px); 
+    flex: 0 0 calc(100% - 16px); 
     background-color: red;
     border: 8px solid greenyellow;
     
@@ -20,7 +18,7 @@ p{
     
 }
 .grid__cell-50{
-    flex: 0 0 calc(50%-16px);
+    flex: 0 0 calc(50% - 16px);
     background-color: blue;
     border: 8px solid greenyellow;
     
@@ -28,7 +26,7 @@ p{
    
 }
 .grid__cell-25{
-    flex: 0 0 calc(25%-16px);
+    flex: 0 0 calc(25% - 16px);
     background-color: blueviolet;
     border: 8px solid greenyellow;
     
@@ -36,15 +34,15 @@ p{
 }
 @media all and (max-width: 600px){
     .grid__cell-100{
-        flex: 0 0 calc(100%-16px);
+        flex: 0 0 calc(100% - 16px);
         flex-wrap: wrap;
 }
 .grid__cell-50{
-        flex: 0 0 calc(50%-16px);
+        flex: 0 0 calc(50% - 16px);
         flex-wrap: wrap;
 }
 .grid__cell-25{
-        flex: 0 0 calc(25%-16px);
+        flex: 0 0 calc(50% - 16px);
         flex-wrap: wrap;
 }
 .grid{
@@ -54,15 +52,15 @@ p{
 }
 @media all and (max-width: 300px){ 
     .grid__cell-100{
-            flex: 0 0 calc(100%-16px);
+            flex: 0 0 calc(100% - 16px);
             flex-wrap: wrap;
     }
    .grid__cell-50{
-            flex: 0 0 calc(50%-16px);
+            flex: 0 0 calc(100% - 16px);
             flex-wrap: wrap;
     }
   .grid__cell-25{
-            flex: 0 0 calc(25%-16px);
+            flex: 0 0 calc(100% - 16px);
             flex-wrap: wrap;
     }
     .grid{
