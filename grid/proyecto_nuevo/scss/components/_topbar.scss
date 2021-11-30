@@ -1,0 +1,22 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: $space;
+    
+    &--logo{
+        background-color: $purple;
+        margin-left: $space;
+        border-radius: $unit;
+        width: 50px;
+        height: calc(#{$space} * 2);
+        text-align: center;
+    }
+    &--logout{
+        display: flex;
+        width: auto;
+        height: auto;
+        justify-content:flex-end;
+        background-color: $red;
+        text-align:left;
+    }
+}

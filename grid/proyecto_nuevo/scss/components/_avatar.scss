@@ -1,0 +1,31 @@
+.avatar {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: solid 6px white;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url('../../figma/svg/Ellipse\ 1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &__edit{
+        position: absolute;
+        bottom: -0.5em;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2em;
+        height: 2em;
+        line-height: 2.3em;
+        border-radius: 50%;
+        text-align: center;
+        transition: all 0.2s ease-in;
+        
+
+    }
+    &__container{
+        position: relative;
+        text-align: center;
+    }
+}

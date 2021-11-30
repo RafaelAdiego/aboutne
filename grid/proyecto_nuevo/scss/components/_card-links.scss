@@ -1,0 +1,26 @@
+.card-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: $unit;
+    background-color: darken($main-color, 10);
+    margin: $space;
+    border-radius: 6px;
+    
+
+    &:visited {
+    color: white;
+    }
+    &__container {
+    display: flex;
+    padding: $unit;
+    margin:0 auto;
+    justify-content: center;
+    @include max-width (626px);
+    flex-wrap: wrap;
+    align-items: center;
+    padding: $unit;
+    margin:0 auto;
+    justify-content: center;
+    }
+}
