@@ -96,7 +96,6 @@ body {
   height: 200px;
   border: solid 6px white;
   border-radius: 50%;
-  background-color: white;
   background-image: url("../../figma/svg/Ellipse 1.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -176,6 +175,14 @@ body {
   background-color: #A1DC68;
 }
 
+.color-white {
+  color: #ffffff;
+}
+
+.bg-color-white {
+  background-color: #ffffff;
+}
+
 .user {
   text-align: center;
 }
@@ -198,7 +205,6 @@ body {
   padding-top: 12px;
 }
 .topbar--logo {
-  background-color: #d75893;
   margin-left: 12px;
   border-radius: 6px;
   width: 50px;
@@ -214,7 +220,6 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background-color: #C50A00;
   text-align: left;
 }
 /*# sourceMappingURL=style.css.map */
