@@ -1,5 +1,5 @@
 @mixin remove-border($value: $unit) {
-  margin: $value - 1px;
+	margin: $value - 1px;
 }
 
 @mixin max-width($max-width : $pagemaxwidth, $width: 100%)  {
@@ -10,5 +10,5 @@
 }
 
 @mixin gridcell($width: 100%, $margin: $space) {
-  flex: 0 0 calc(#{$width} - #{$margin});
+	flex: 0 0 calc(#{$width} - #{$margin});
 }
