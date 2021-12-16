@@ -4,9 +4,7 @@
     height: 200px;
     border: solid 6px white;
     border-radius: 50%;
-   
     background-image: url('../../figma/svg/Ellipse\ 1.jpg');
-    
     background-repeat: no-repeat;
     background-position: center;
 
@@ -21,8 +19,6 @@
         border-radius: 50%;
         text-align: center;
         transition: all 0.2s ease-in;
-        
-
     }
     &__container{
         position: relative;

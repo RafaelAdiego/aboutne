@@ -2,16 +2,13 @@
     text-align: center;
 
     &__name {
-        font-size: calc(#{$letter} * 3);
-        
+        font-size: calc(#{$letter} * 3);  
     }
     &__job {    
         font-size: calc(#{$letter} * 2);
-
     }
 }
 .card-link {
     text-align: center;
     font-size: $letter ;
-
 }
